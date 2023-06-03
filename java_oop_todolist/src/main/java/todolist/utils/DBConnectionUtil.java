@@ -24,4 +24,8 @@ public class DBConnectionUtil {
     public static HikariDataSource gDataSource() {
         return hikariDataSource;
     }
+
+    public static HikariDataSource getDataSource() {
+        return null;
+    }
 }

@@ -22,13 +22,13 @@ public class WelcomeViews {
 
         switch (menu) {
             case 1 :
-            System.out.println("Go to Login Page");
+            LoginView.ShowLoginPage();
             break;
             case 2 :
-            System.out.println("Go to Create User Page");
+            UserView.ShowUserMain();
             break;
             case 0 :
-            System.out.println("Application closed!");
+            WelcomeViews.ShowWelcomeView();
             break;
         }
         inputScanner.close();
